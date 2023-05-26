@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto Motosfera</title>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=Krona+One&family=Oswald:wght@300;400&family=Quicksand:wght@500&display=swap" rel="stylesheet"> <!-- Enlace a las fuentes de Google Fonts -->
+    <script src="https://kit.fontawesome.com/94b00d03c4.js" crossorigin="anonymous"></script> <!-- Enlace al kit de Font Awesome para iconos -->
+    <link rel="stylesheet" href="../assets/css/main.css"> <!-- Enlace a la hoja de estilos CSS -->
+</head>
+<body>
+    <header class="header-sitio">  
+        <div class="container header-container">
+            <a href="../index.html"><img src="motosferaLogo.jpg" width="150" height="90" alt="logo"></a> <!-- Enlace al logo -->
+            <nav id="nav">
+                 <a href="../index.html">Inicio</a> <!-- Enlace al inicio -->
+                 <a href="nosotros.html">Nosotros</a> <!-- Enlace a la página "Nosotros" -->
+                 <a href="servicios.html">Servicios</a> <!-- Enlace a la página "Servicios" -->
+                 <a href="opiniones.html">Testimonios</a> <!-- Enlace a la página "Testimonios" -->
+        </div>
+    </header>
+
+    <h2 class="t-h2">Deja tu consulta:</h2> <!-- Título de la sección -->
+    <article>
+        <div class="banner-form">
+            <section class="contacto">
+                <form id="consultaForm">
+                    <h3>Contacto:</h3> <!-- Título del formulario -->
+                    <input type="text" name="nombre" placeholder="Tu nombre"> <!-- Campo para el nombre -->
+                    <input type="email" name="email" placeholder="Tu email"> <!-- Campo para el email -->
+                    <textarea name="mensaje" cols="30" rows="10" placeholder="Dejanos un mensaje"></textarea> <!-- Campo para el mensaje -->
+                    <input type="submit" value="Enviar"> <!-- Botón de enviar -->
+                </form>
+            </section>
+        </div>
+    </article>
+
+    <div id="myModal" class="modal"> <!-- Modal para mostrar un mensaje de éxito -->
+        <div class="modal-content">
+            <h4 id="successMessage">Los datos se han guardado con éxito.</h4> <!-- Mensaje de éxito -->
+        </div>
+    </div>
+
+
+    <h2 class="t-h2">Informacion Util</h2> <!-- Título de la sección -->
+    <div class="informa-u">
+        <section>
+            <i class="fab fa-whatsapp"></i> <!-- Icono de WhatsApp -->
+            <h4>Whatsapp</h4> <!-- Título de contacto de WhatsApp -->
+            <p>3124484500</p> <!-- Número de WhatsApp -->
+        </section>
+        <section>
+            <i class="fas fa-phone-alt"></i> <!-- Icono de teléfono -->
+            <h4>Telefono</h4> <!-- Título de contacto de teléfono -->
+            <p>3124484500</p> <!-- Número de teléfono -->
+        </section>
+        <section>
+            <i class="fas fa-map-marker-alt"></i> <!-- Icono de ubicación -->
+            <h4>Direccion</h4> <!-- Título de dirección -->
+            <p>Kennedy, Bogota, <br> Colombia</p> <!-- Dirección -->
+        </section>
+        <section>
+            <i class="far fa-clock"></i> <!-- Icono de reloj -->
+            <h4>Horario</h4> <!-- Título de horario -->
+            <p>Lun a Vie de 8.00 a 13.0 hs. <br> y de 14 a 18hs
+                <br>Sab. de 9 a 13 hs.
+            </p> <!-- Horario de atención -->
+        </section>
+
+    </div>
+    <article>
+        <h2 class="t-h2">Como Llegar?</h2> <!-- Título de la sección -->
+    </article>
+    <section class="como-llegar">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31814.389445096098!2d-74.17258144369883!3d4.629975827838635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c20c1186379%3A0x72c48cbe21e275ac!2sKennedy%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1683683367226!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <!-- Mapa de Google Maps -->
+        <article>
+            <p>Estamos en Kennedy, Bogota Capital, Colombia.</p> <!-- Información de ubicación adicional -->
+        </article>
+    </section>
+
+    <footer class="pie">
+        <div class="container footer-content">
+
+            <ul class="footer-info">
+                <li>Direccion: Kennedy. Bogota, Colombia</li> <!-- Dirección en el pie de página -->
+                <li>Tel: 3124484500</li> <!-- Teléfono en el pie de página -->
+            </ul>
+    
+            <ul class="footer-redes">
+                <li><i class="fab fa-facebook-f"></i></li> <!-- Icono de Facebook -->
+                <li><i class="fab fa-instagram"></i></li> <!-- Icono de Instagram -->
+            </ul>
+        </div>
+        <p>QSD 2023</p> <!-- Texto de derechos de autor -->
+    </footer>
+</body>
+<script src="../assets/js/scriptsugerencias.js"></script> <!-- Enlace al archivo de script sugerencias.js -->
+</html>
